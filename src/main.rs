@@ -7,23 +7,43 @@ struct TodoItem {
 
 impl TodoItem {
     fn new(name: String) -> TodoItem {
-        return TodoItem{
+        TodoItem{
             name: name,
             completed: ' '
-        };
+        }
+    }
+}
+
+struct TodoList {
+    list: Vec<TodoItem>
+}
+
+impl TodoList {
+    fn new() -> TodoList {
+        TodoList{list: Vec::new()}
+    }
+
+    fn add_to_list(&mut self, name: String) {
+        let todo_item = TodoItem::new(name);
+        self.list.push(todo_item);
+    }
+
+    fn print(&self) {
+        for item in &self.list {
+            println!("[{}] - {}", item.completed, item.name);
+        }
     }
 }
 
 fn main() {
     let arguments: Vec<String> = env::args().collect();
     let command = arguments[1].clone();
-    let todo_item_1 = TodoItem::new("Say hi to CJ".to_string());
-    let todo_item_2 = TodoItem::new("Do something with Rust".to_string());
-    let todo_list = vec![todo_item_1, todo_item_2];
+    let mut todo_list = TodoList::new();
+
+    todo_list.add_to_list("Say hi to CJ".to_string());
+    todo_list.add_to_list("Do something with Rust".to_string());
 
     if command == "get" {
-        for item in todo_list {
-            println!("[{}] - {}", item.completed, item.name);
-        }
+        todo_list.print();
     }
 }
