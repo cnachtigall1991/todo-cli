@@ -13,7 +13,7 @@
 * [x] Seed the list with default data
 * [x] List all tasks
 * [x] Add a new task
-* [ ] Mark a task as complete
+* [x] Mark a task as complete
 * [ ] Unmark a task
 * [ ] Remove a task
 * [ ] Build for production
