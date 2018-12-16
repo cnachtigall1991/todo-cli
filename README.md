@@ -14,7 +14,7 @@
 * [x] List all tasks
 * [x] Add a new task
 * [x] Mark a task as complete
-* [ ] Unmark a task
+* [x] Unmark a task
 * [ ] Remove a task
 * [ ] Build for production
   * [ ] Linux
