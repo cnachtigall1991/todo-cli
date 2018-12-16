@@ -12,7 +12,7 @@
 * [x] Create an empty list
 * [x] Seed the list with default data
 * [x] List all tasks
-* [ ] Add a new task
+* [x] Add a new task
 * [ ] Mark a task as complete
 * [ ] Unmark a task
 * [ ] Remove a task
