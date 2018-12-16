@@ -15,7 +15,7 @@
 * [x] Add a new task
 * [x] Mark a task as complete
 * [x] Unmark a task
-* [ ] Remove a task
+* [x] Remove a task
 * [ ] Build for production
   * [ ] Linux
   * [ ] Windows
