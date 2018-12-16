@@ -16,10 +16,8 @@
 * [x] Mark a task as complete
 * [x] Unmark a task
 * [x] Remove a task
-* [ ] Build for production
-  * [ ] Linux
-  * [ ] Windows
-  * [ ] Mac 
+* [x] Build for production
+  * [x] Linux
 
 ## Challanges for you
 

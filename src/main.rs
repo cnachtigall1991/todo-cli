@@ -67,10 +67,6 @@ fn main() {
         _ => panic!("You must provide an accepted command")
     };
 
-    todo_list.add_to_list("Say hi to CJ".to_string());
-    todo_list.add_to_list("Do something with Rust".to_string());
-    todo_list.mark_done(1);
-
     match command {
         Command::Get => todo_list.print(),
         Command::Add(task) => {
