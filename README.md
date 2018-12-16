@@ -6,12 +6,12 @@
 * [x] Install Rust
 * [x] Create a new project
 * [x] Hello World!
-* [ ] Collect CLI arguments into Vector
-* [ ] Create a way to store user inputs
-  * [ ] Start with list all tasks
-* [ ] Create an empty list
-* [ ] Seed the list with default data
-* [ ] List all tasks
+* [x] Collect CLI arguments into Vector
+* [x] Create a way to store user inputs
+  * [x] Start with list all tasks
+* [x] Create an empty list
+* [x] Seed the list with default data
+* [x] List all tasks
 * [ ] Add a new task
 * [ ] Mark a task as complete
 * [ ] Unmark a task
