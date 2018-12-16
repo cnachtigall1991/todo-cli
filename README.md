@@ -4,8 +4,8 @@
 * [x] Who am I?
 * [x] What is Rust?
 * [x] Install Rust
-* [ ] Create a new project
-* [ ] Hello World!
+* [x] Create a new project
+* [x] Hello World!
 * [ ] Collect CLI arguments into Vector
 * [ ] Create a way to store user inputs
   * [ ] Start with list all tasks
